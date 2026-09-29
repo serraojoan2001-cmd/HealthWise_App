@@ -1,0 +1,13 @@
+# ===========================================================================
+#  FILE : requirements.txt   (what Streamlit Community Cloud installs to RUN the app)
+#  The versions below are the ones the app was tested with.
+#  IMPORTANT: scikit-learn must match the version that created
+#  artifacts/healthwise_model.joblib (1.8.0). If you retrain in another
+#  environment, update this line to that environment's scikit-learn version.
+# ===========================================================================
+streamlit==1.64.0
+plotly==7.1.0
+pandas==3.0.2
+numpy==2.4.4
+scikit-learn==1.8.0
+joblib==1.5.3

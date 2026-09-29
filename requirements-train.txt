@@ -1,0 +1,10 @@
+# ===========================================================================
+#  FILE : requirements-train.txt   (only needed to RUN train_model.py locally / in Colab)
+#  Not used by Streamlit Cloud.
+# ===========================================================================
+pandas
+numpy
+scipy
+scikit-learn
+statsmodels
+joblib
